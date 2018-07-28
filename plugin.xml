@@ -66,6 +66,8 @@ xmlns:android="http://schemas.android.com/apk/res/android">
 		<framework src="com.google.firebase:firebase-crash:+" />
 		<framework src="com.google.firebase:firebase-config:+" />
 		<framework src="com.google.firebase:firebase-perf:+" />
+		<!-- This should no be here. It is for the Branch plugin. Remove ASAP -->
+		<framework src="com.android.installreferrer:installreferrer:1.0" />
 
 	</platform>
 
